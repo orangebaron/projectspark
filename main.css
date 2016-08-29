@@ -1,0 +1,55 @@
+/*note: most of the !important's here are to override bootstrap*/
+
+.navbar {
+	background-color: black;
+	border-color: black;
+}
+.navbar-brand {
+	font-weight: bold;
+	color: white !important;
+	font-size: 18px;
+}
+.navbar-nav li a {
+	color: white !important;
+}
+.navbar-nav li a:hover {
+	color: #cccccc !important;
+}
+.navbar-nav .active a {
+	background-color: #dddd00 !important;
+	color: black !important;
+	font-weight: bold;
+}
+.navbar-nav .active a:hover {
+	color: black !important;
+}
+.noborder {
+	border: none;
+}
+.blackbg {
+	background-color: black;
+}
+.top-jumbo {
+	padding-bottom: 0;
+}
+a.btn {
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.blackbg {
+	color: white;
+}
+.arrowbullets {
+	display: block;
+}
+.arrowbullets li:before {
+	content: "\e080";
+	font-family: "Glyphicons Halflings";
+	float: left;
+	color: #ee0;
+}
+li {
+	font-weight: bold;
+	font-size: 20px;
+}
